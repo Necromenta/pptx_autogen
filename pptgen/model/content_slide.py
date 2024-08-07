@@ -12,7 +12,7 @@ class ContentSlide(BaseModel):
     """BaseModel for a PowerPoint Content Slide."""
 
     title: str
-    content: Union[str, BulletPoints]
+    content: str
     layout: str = "Content with Caption"
     title_font_size: int = 40
     content_font_size: int = 24

@@ -37,8 +37,7 @@ slides = [
     TitleSlide(title="Christmas Presentation", subtitle="Happy Holidays!"),
     ContentSlide(
         title="Winter Facts",
-        content=winter_facts,
-    ),
+        content="1. Snow is white\n2. It's cold\n3. People build snowmen",    ),
     ImageSlide(
         title="Christmas Tree",
         image_path=str(base_paths.image_path.joinpath("christmas_tree.jpg").resolve()),
